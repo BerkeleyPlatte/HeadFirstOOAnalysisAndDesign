@@ -1,6 +1,6 @@
 public enum Builder {
 
-    FENDER, MARTIN, GIBSON, EPIPHONE, TAYLOR;
+    FENDER, MARTIN, GIBSON, EPIPHONE, TAYLOR, PRS;
 
     public String toString() {
         switch (this) {
@@ -14,6 +14,8 @@ public enum Builder {
             return "Epiphone";
             case TAYLOR:
             return "Taylor";
+            case PRS:
+            return "Paul Reed Smith";
             default:
             return "n/a";
         }
